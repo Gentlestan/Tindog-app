@@ -1,0 +1,83 @@
+body{
+    background-color: darkgray
+}
+
+.container{
+    width: 550px;
+    margin: 0 auto;
+    border-radius: 1em;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+.icon-profile,
+.icon-chat{
+    width: 34px;
+    height: 34px;
+    margin-left: 1em;
+    margin-right: 1.5em;
+}
+
+.icon-logo{
+    width: 84px;
+    height: 42px;
+}
+main{
+    position: relative;
+}
+.dog-avatar { 
+    width: 98%;
+    border-radius: 0.8em;
+    animation: fadeVisibility 0.5s;
+    margin: 0 0.4em;
+}
+.img-noped,
+.img-liked{
+    width: 45%;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    transform: rotate(-30deg)
+    
+}
+.avatar-info{
+    color: white;
+    position: absolute;
+    bottom: 7%;
+    left: 5%
+}
+.avatar-bio{
+    color: white;
+    position: absolute;
+    bottom: 3%;
+    left: 5%;
+}
+
+.img-cross{
+    margin-right: 1.25em;
+    
+}
+.img-react{
+    text-align: center;
+    margin-top: 0.625em;
+    margin-bottom: 0.625em; 
+}  
+
+.hidden{
+    display: none;
+}
+.img-cross:hover, active{
+    cursor: pointer;
+    background: #FFE7EF;
+}
+.img-heart:hover,active{
+cursor: pointer;
+background: #DBFFF4; 
+}
+
+
+
+
+
